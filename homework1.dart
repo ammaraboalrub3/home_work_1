@@ -1,6 +1,5 @@
 void main() {
-  int distance = 25;
-  int speed = 40;
-  double formula = distance / speed;
-  print(formula * 60);
+  int age = 23;
+  String result = (age >= 13 && age <= 19) ? 'Teenager' : 'Not Teenager';
+  print(result);
 }
